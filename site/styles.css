@@ -1,0 +1,111 @@
+*{
+	box-sizing: border-box;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: ghostwhite;
+}
+
+
+header {
+	margin: 2px;
+	color: darkblue;
+	font-weight: bolder;
+	background-color: goldenrod;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'Supermercado One', cursive;
+	padding: 50px;
+	border-bottom: 10px solid white;
+	
+}
+
+.Bar {
+	font-size: 20px;
+	font-weight: bolder;
+	margin-left: 5px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+a:link {
+	color: deepskyblue;
+}
+
+
+a:visited {
+	color: blueviolet;
+}
+
+a:hover {
+	color: red;
+	background-color: black;
+}
+
+a:active {
+	color: blue;
+}
+
+.images img{
+	margin: 5px;
+	width: 32%;
+	border-radius: 8px;
+	height: 300px;
+}
+
+.box {
+	margin: 5px;
+	padding: 20px;
+	background-color: lawngreen;
+	align-content: center;
+}
+.content {
+	text-align: center;
+	padding: 20px;
+	background-color: limegreen;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
+}
+
+p {
+	font-weight: bolder;
+}
+h1 {
+	font-size: 30px;
+	font-weight: bolder;
+	color: floralwhite;
+}
+hr {
+	height: 3px;
+	background-color: slategrey;
+	width: 75%;
+}
+
+.tables h2{
+	font-weight: bolder;
+	color: lightgoldenrodyellow;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#tables {
+	background-color: indianred;
+	position: relative;
+	padding: 10px;
+	margin: 5px;
+	margin-top: 10px;
+	align-content: center;
+}
+
+#t2 {
+	position: absolute;
+	right: 200px;
+	top: 10px;
+	font-family: 'Quintessential', cursive;
+}
+#t1 {
+	position: relative;
+	left: 100px;
+	font-family: 'Quintessential', cursive;
+}
